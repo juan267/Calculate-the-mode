@@ -98,7 +98,6 @@ puts "Unit 3 Groups: "
 puts unit_3
 
 
-
 # 2. Refactored Solution
 
 # The solution above its the refactor solution just that i erase it so many times that i forgot to keep my initial solution.

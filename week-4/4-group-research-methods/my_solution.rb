@@ -7,40 +7,46 @@ my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12, "Bogart" => 4,
 # Person 1's solution
 def my_array_finding_method(source, thing_to_find)
   # Your code here!
+  source.select{|word| word.to_s.include?(thing_to_find)}
 end
 
 def my_hash_finding_method(source, thing_to_find)
-  # Your code here!
+  found = []
+  source.each{|k,v| found << k if v == thing_to_find}
+  found
 end
 
 # Identify and describe the ruby method you implemented.
-#
-#
+# For my_array_finding_method, I invoked the .select method on the input array to return only those items in the array that the block code evaluated to be true.  In the block code, I used the .include? method to determine if the item in question includes the 'thing_to_find'.  I also applied the .to_s method to the 'word' in case the item was a non-string (which is what I initially anticipated).
+# For the my_hash_finding_method, the input is a hash, but the desired output was an array.  I approached this by first creating a blank array 'found'.  I then applied the .each method to the input hash to iterate over each key/value pair.  In the block code, I added the key to the 'found' array only if the value was equal to that we were looking for ('thing_to_find').  The last line (16) returns the array of items we collected.
 #
 
 # Person 2
 def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
+  source.map! { |each| if each.is_a? Fixnum then each + 1 else each end }
 end
 
 def my_hash_modification_method(source, thing_to_modify)
-  # Your code here!
+  output = source.each {|k,v| source[k] = v + thing_to_modify }
 end
 
 # Identify and describe the ruby method you implemented.
+# For my_array_modification_method I used enumerable#map! to update our array so it adds thing_to_modify to any Fixnum in the array, and then does nothing for any other objects in the array.
 #
-#
-#
-
+# For my_hash_modification_method I used hash#each to iterate over the key-value pairs in the hash and add thing_to_modify to each value.
 
 # Person 3
 def my_array_sorting_method(source)
-  # Your code here!
+  source= source.map {|word| word.to_s}.sort
 end
 
 def my_hash_sorting_method(source)
-  # Your code here!
+  source = source.sort_by {|name , age| age}
 end
+
+p my_array_sorting_method(i_want_pets)
+p my_hash_sorting_method(my_family_pets_ages)
+
 
 # Identify and describe the ruby method you implemented.
 #
@@ -83,8 +89,8 @@ p my_hash_modification_method(my_family_pets_ages, 2) == {"Evi" => 8, "Hoobie" =
 # You don't have to do this in the exact same way, just make sure to write your own
 # test if you are going to do it differently and give that to your group.
 
-p my_array_sorting_method(i_want_pets) == ["3", "4", "I", "but", "have", "only", "pets", "want"]
-p my_hash_sorting_method(my_family_pets_ages) == [["Annabelle", 2], ["Ditto", 5], ["Hoobie", 5], ["Bogart", 6], ["Poly", 6], ["Evi", 8], ["George", 14]]
+p my_array_sorting_method(i_want_pets) == ["2", "3", "I", "but", "have", "only", "pets", "want"]
+p my_hash_sorting_method(my_family_pets_ages) == [["Annabelle", 0], ["Ditto", 3], ["Hoobie", 3], ["Bogart", 4], ["Poly", 6], ["Evi", 6], ["George", 12]]
 
 # Person 4
 # This driver code will only pass if you have the code from Person 2!If you don't have it, copy/modify it so you can
