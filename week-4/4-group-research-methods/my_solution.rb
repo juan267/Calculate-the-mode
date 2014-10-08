@@ -37,20 +37,24 @@ end
 
 # Person 3
 def my_array_sorting_method(source)
-  source= source.map {|word| word.to_s}.sort
+  source.map {|word| word.to_s}.sort
 end
 
 def my_hash_sorting_method(source)
-  source = source.sort_by {|name , age| age}
+  source.sort_by {|name, age| [age, name]}
 end
+
 
 
 # Identify and describe the ruby method you implemented.
 #For my_array_sorting_method i used map first to transform all the elements inside the source Array
 #into strings, and then i call sort on it so that it sort the array based on alphabetical order.
 #
-#for my_hash_sorting_method i used sort_by (enumerable method) so that it sort the hash based on the age
-#value from lowest to highest and also keep the asociation with its key pair.
+#for my_hash_sorting_method i used sort_by (enumerable method). This enumerable method creates two
+#arrays one that contains the names and the other that contains the ages, by having this two arrays is
+#now posible to sort them as we can now do a<=>b comparison between the elements inside the arrays.
+#So then im telling it to sort source first by the age that has the highest priority
+#and then im telling it to sort by the name so that if two elements have the same age it sort them based on the name.
 
 
 # Person 4
@@ -88,8 +92,8 @@ p my_hash_modification_method(my_family_pets_ages, 2) == {"Evi" => 8, "Hoobie" =
 # You don't have to do this in the exact same way, just make sure to write your own
 # test if you are going to do it differently and give that to your group.
 
-p my_array_sorting_method(i_want_pets) == ["2", "3", "I", "but", "have", "only", "pets", "want"]
-p my_hash_sorting_method(my_family_pets_ages) == [["Annabelle", 0], ["Ditto", 3], ["Hoobie", 3], ["Bogart", 4], ["Poly", 6], ["Evi", 6], ["George", 12]]
+p my_array_sorting_method(i_want_pets) == ["3", "4", "I", "but", "have", "only", "pets", "want"]
+p my_hash_sorting_method(my_family_pets_ages) == [["Annabelle", 2], ["Ditto", 5], ["Hoobie", 5], ["Bogart", 6], ["Poly", 6], ["Evi", 8], ["George", 14]]
 
 # Person 4
 # This driver code will only pass if you have the code from Person 2!If you don't have it, copy/modify it so you can
