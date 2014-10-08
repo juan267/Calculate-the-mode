@@ -44,14 +44,13 @@ def my_hash_sorting_method(source)
   source = source.sort_by {|name , age| age}
 end
 
-p my_array_sorting_method(i_want_pets)
-p my_hash_sorting_method(my_family_pets_ages)
-
 
 # Identify and describe the ruby method you implemented.
+#For my_array_sorting_method i used map first to transform all the elements inside the source Array
+#into strings, and then i call sort on it so that it sort the array based on alphabetical order.
 #
-#
-#
+#for my_hash_sorting_method i used sort_by (enumerable method) so that it sort the hash based on the age
+#value from lowest to highest and also keep the asociation with its key pair.
 
 
 # Person 4
