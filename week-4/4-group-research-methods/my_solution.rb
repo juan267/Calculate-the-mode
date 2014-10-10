@@ -113,7 +113,7 @@ p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie
 
 # Release 4: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
-#
-#
+# I learn how other tought procees wrk and how they see things
+#diferent form me. I also learn that explaining something really
+#lets you understand the gaps in your own knoewledge so that
+# you can work on those gaps an further improve what you know.
