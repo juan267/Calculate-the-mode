@@ -59,20 +59,30 @@ end
 
 # Person 4
 def my_array_deletion_method(source, thing_to_delete)
-  #Your code here!
+  source.delete_if {|x| x.to_s.include? (thing_to_delete)}
 end
 
 def my_hash_deletion_method(source, thing_to_delete)
-  #Your code here!
+  source.delete_if {|x| x.include? (thing_to_delete)}
 end
 
 # Identify and describe the ruby method you implemented.
+# For my_array_deletion_method:
+# .delete_if (http://www.ruby-doc.org/core-2.0/Array.html#method-i-delete_if)
+#   .delete_if, deletes every element where the block is true.
+#   Since source contains numbers, the item had to become a string or face Fixnum error.
+# .include? (OBJECT) (http://www.ruby-doc.org/core-2.0/Array.html#method-i-include-3F)
+#   .include? results in either true or false where (element == object), thus if thing_to_delete is inside the source, it is deleted from self.
 #
+# For my_hash_deletion_method:
+# .delete_if (http://www.ruby-doc.org/core-2.0/Hash.html#method-i-delete_if)
+#   .delete_if, deletes every key-value pair from the hash when the block is true.
 #
-#
+# .include? (KEY) (http://www.ruby-doc.org/core-2.0/Hash.html#method-i-include-3F)
+#   .include? returns true if the key is present in HASH, thus if thing_to_delete is inside the source(key), it is deleted from self.
 
 
-################## DRIVER TEST CODE ###################################
+################## DRIVER TEST CODE ###################################s
 # HINT: Use `p` statements to see if you are altering the original structure with these methods.
 # Each of these should return `true` if they are implemented properly AND you have the code for each of the methods.
 
