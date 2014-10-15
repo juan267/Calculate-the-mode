@@ -7,7 +7,7 @@
 class Profile
 # first let's finish refactoring this code
 # note that there is a way to add all of the variables like :age on one line, how would we do that?
-  attr_accessor :age
+  attr_accessor :age, :name , :occupation
 
   def initialize
     @age = 27
@@ -24,22 +24,31 @@ class Profile
     puts "occupation: #{@occupation}"
     puts
   end
-
-  def what_is_name
-    @name
-  end
-
-  def change_my_name=(new_name)
-    @name = new_name
-  end
-
-  def what_is_occupation
-    @occupation
-  end
-
-  def change_my_occupation=(new_occupation)
-    @occupation = new_occupation
-  end
-
-
 end
+
+
+
+instance_of_profile = Profile.new
+
+puts "---------Printing Age-----------"
+sleep 0.5
+puts instance_of_profile.age
+puts "---------Printing Age-----------"
+sleep 0.5
+puts instance_of_profile.name
+puts "---------Printing Age-----------"
+sleep 0.5
+puts instance_of_profile.occupation
+puts
+puts"----------Chaengin Profile-------"
+10.times do
+  print "."
+  sleep 0.1
+end
+
+instance_of_profile.age = 28
+instance_of_profile.name = "Taylor"
+instance_of_profile.occupation = "Pilot"
+
+instance_of_profile.print_info
+
