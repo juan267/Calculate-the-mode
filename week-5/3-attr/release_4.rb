@@ -52,3 +52,7 @@ instance_of_profile.occupation = "Pilot"
 
 instance_of_profile.print_info
 
+# Reflection
+# this was all about using attr functionality to simplified the code and make it more DRY. So it it very simple
+# to do just replace all getter and setter instance methods inside Profile to be symbols inside the attr
+# method at the beginning of the class.

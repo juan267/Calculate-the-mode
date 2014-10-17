@@ -1,7 +1,7 @@
 # # U2.W4: Cipher Challenge
 
 
-# # I worked on this challenge with: .
+# # I worked on this challenge with: Liorr Morrison.
 
 
 
@@ -126,6 +126,7 @@ p test.decipher(4) == "can somebody just get me 10000 bags of cool ranch doritos
 
 # # Reflection:
 
-Most dificult challenge so far, it definetely was useful to work in pairs to solve it. I think we really managed to do
-an automated and simple solution that is a lot more readable and elegant than the initial solution. This was all about logic
-and not finding new methods, so it was a good mind excersice.
+# Most dificult challenge so far, it definetely was useful to work in pairs to solve it. I think we really managed to do
+# an automated and simple solution that is a lot more readable and elegant than the initial solution. This was all
+# about logic and not finding new methods, so it was a good mind excersice. I lik how the initial code was very
+# dificult to read but ours its simple and readable.

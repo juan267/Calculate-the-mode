@@ -44,18 +44,34 @@ class GuessingGame
   end
 end
 
-game = GuessingGame.new(10)
 
-p game.solved?   # => false
 
-p game.guess(5)  # => :low
-p game.guess(20) # => :high
-p game.solved?   # => false
 
-p game.guess(10) # => :correct
-p game.solved?   # => true
 
 # 4. Refactored Solution
+
+# class GuessingGame
+#   def initialize(answer)
+#     @answer = answer
+#   end
+#   def guess (guess)
+#     @guess = guess
+#     if @guess == @answer
+#       :correct
+#     elsif @guess > @answer
+#       :high
+#     else
+#       :low
+#     end
+#   end
+#   def solved?
+#     if guess == :correct # I thought this would make the code more readable but im having trobles calling guess inside the solved method as guess dosent know wich parameter is bieng passed to it
+#       true
+#     else
+#       false
+#     end
+#   end
+# end
 
 
 
@@ -64,6 +80,12 @@ p game.solved?   # => true
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
+game = GuessingGame.new(10)
+p game.guess(5) == :low
+p game.guess(20)== :high
+p game.solved?  == false
+p game.guess(10)== :correct
+p game.solved?  == true
 
 
 

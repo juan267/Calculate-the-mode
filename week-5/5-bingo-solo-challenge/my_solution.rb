@@ -18,12 +18,7 @@
 #   mark = @b_column.index(@num)
 #   @bingo_board[mark][0]="X"
 # # Display a column to the console
-#     p @b_column = [@bingo_board[0][0], @bingo_board[1][0],@bingo_board[2][0],@bingo_board[3][0],@bingo_board[4][0]]
-#     p @i_column = [@bingo_board[0][1], @bingo_board[1][1],@bingo_board[2][1],@bingo_board[3][1],@bingo_board[4][1]]
-#     p @n_column = [@bingo_board[0][2], @bingo_board[1][2],@bingo_board[2][2],@bingo_board[3][2],@bingo_board[4][2]]
-#     p @g_column = [@bingo_board[0][3], @bingo_board[1][3],@bingo_board[2][3],@bingo_board[3][3],@bingo_board[4][4]]
-#     p @o_column = [@bingo_board[0][4], @bingo_board[1][4],@bingo_board[2][4],@bingo_board[3][4],@bingo_board[4][4]]
-
+#     use getter methods for each instace variable of each column
 # # Display the board to the console (prettily)
 #    @bingo_board.each do |rows|
 #     p rows.map { |col| col }.join(" ")
@@ -66,6 +61,32 @@ class BingoBoard
       @bingo_board[mark][4]="X"
     end
   end
+
+  def b_column
+    puts "B"
+    puts @b_column
+  end
+
+  def i_column
+    puts "I"
+    p @i_column
+  end
+
+  def n_column
+    puts "N"
+    p @n_column
+  end
+
+  def g_column
+    puts "G"
+    p @g_column
+  end
+
+  def o_column
+    puts "O"
+    p @o_column
+  end
+
   def display
     puts "#{@column} #{@num}"
     puts " B I N G O"
@@ -75,10 +96,6 @@ class BingoBoard
   end
 end
 
-game = BingoBoard.new
-a = game.generator
-a = game.display
-
 
 # Release 3: Refactored Solution
 
@@ -86,10 +103,24 @@ a = game.display
 
 # Release 2: DRIVER TESTS GO BELOW THIS LINE
 
+game = BingoBoard.new
+game.generator
+game.display
+game.b_column
+
+#Im really stuck here because i dont know how to test if this is the generator is dynamic ?
+
 
 
 
 
 # Release 4: Reflection
-
+# # the most dificult part of this challenge was creating the coulums of the bingo board, i found a relatively simple
+# solution for that i i definetely think that there most be an easier way to do that. I also had to be very carefull
+# the index for that i was passing to replace and element for the X was the correct one, for that i had to make several
+# drawings of the board in a notebook and verified that the index numbers that i was using where the correct ones. I
+# would also like that all the column getter methods would be simplifiedby using the attr finctionality but i think
+# thats not posible to accomplish as there is custumization the each of those variables. Finally i wasent able to Create
+# functional dirver test code for this challenge i did test that result was what i expect on the terminal and indeed it
+# is its not exactly driver test code.
 
