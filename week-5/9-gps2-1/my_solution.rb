@@ -2,7 +2,7 @@
 
 # Your Names
 # 1) Juan Gomez
-# 2)
+# 2) Micheal Hamel
 
 #You should not change this file. Please paste your solution into the my_solution.rb file.
 
