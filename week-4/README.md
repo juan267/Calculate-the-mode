@@ -39,8 +39,8 @@ You will want to run and modify all files from your local repository on your com
 - When the work is complete, turn it in using the [week's submission form](http://apply.devbootcamp.com).
 
 ## Remember your Expectations for the Unit!
-- Pair at least twice this week.  (You need to pair 6 times this unit.)
-- Give feedback for each person you paired with. You need to submit at least 7 pieces of feedback in this unit. (6 for peer-pairing, and 1 GPS.)
+- Pair at least twice this week. *You need to pair* ***6*** *times this unit*
+- Give feedback for each person you paired with. *You need to submit at least 8 pieces of feedback in this unit* (6 for peer-pairing, and 2 GPS)
 - Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. (You need to rate 20 pieces of feedback per unit.)
 
 ## Fetching Changes

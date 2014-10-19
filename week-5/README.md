@@ -27,9 +27,17 @@ We can't recommend this book enough, so please get it if you can. Read through t
 
 This week you'll want to request feedback on Twitter using the hashtag **#DBCU2W5.** Only other DBC students can actually see your repositories because they are private.
 
+## Submitting your work
+- You must complete the [week's submission form](http://apply.devbootcamp.com) to "turn in" your work.
+- The week's work is due each Sunday be 11:59pm.
+
+**If you do not finish by the deadline:**
+- Complete the Unit 2 extension request. (You only get one extension for Unit 2)
+- When the work is complete, turn it in using the [week's submission form](http://apply.devbootcamp.com).
+
 ## Remember your Expectations for the Unit!
 - Pair at least twice this week.  *You need to pair* ***6*** *times this unit*
-- Give feedback for each person you paired with. *You need to submit at least 7 pieces of feedback in this unit* (6 for peer-pairing, and 1 GPS)
+- Give feedback for each person you paired with. *You need to submit at least 8 pieces of feedback in this unit* (6 for peer-pairing, and 2 GPS)
 - Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. *You need to rate 20 pieces of feedback per unit.
 
 ## Fetch DBC's Changes
@@ -41,9 +49,6 @@ Modify them for unit 2.
 Once you have the entire local repository on your computer, you don't need to read the challenges on github anymore (although we admit, it's prettier). You can open the entire repository in sublime and read the challenges in their original markdown. It will also help you find any link issues, since you can see where they are pointing. If you do find broken links, please let us by posting on the community, but also try to figure out a fix. It will help your markdown skills!
 
 
-## Submitting your work
-
-**You need to submit your work through on [apply.devbootcamp.com](http://apply.devbootcamp.com) by Sunday at 11:59pm. When you log in, look at your profile page. There should be a "Unit 2 Week 5 Submission" form.** It is not enough to have your work on github.
 
 ## [Resources](https://github.com/Devbootcamp/phase-0-handbook/blob/master/resources.md)
 

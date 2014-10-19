@@ -1,4 +1,4 @@
-[Week 6 Home](../)
+[Bonus Home](../)
 
 # U2.W6: Create A Car Class from User Stories
 
@@ -6,7 +6,6 @@
 - Identify the attributes and methods of a class based on user stories
 - Translate a user story into driver code and solutions
 - Explain how data structures and classes can model real-world objects
-
 
 ## Summary
 You've delved into object-oriented programming this week. You've created a class based on pre-defined driver code and user stories. You've converted a functional program into an object-oriented program. You've also created driver code to interact with an existing object's class.
@@ -19,32 +18,32 @@ You are tasked with creating a `Car` object that is to operate in the context of
 - As a video game player, I need to be able to define a distance to drive so I can follow directions appropriately.
 - As a video game player, I'd like to be able to see the speed I am traveling, so I can properly accelerate or decelerate.
 - As a video game player, I want to be able to turn left or right so I can navigate a city and follow directions.
-- As a video game player, I want to be able to accelerate and decelerate the car to a defined speed so I can drive following the rules of the road. 
+- As a video game player, I want to be able to accelerate and decelerate the car to a defined speed so I can drive following the rules of the road.
 - As a video game player, I want to keep track of the total distance I have travelled, so I can get paid for mileage.
 - As a video game player, I want to be able to stop the car so I can follow traffic signs and signals.
 - As a video game player, I would like to see output reflecting the latest action of my car so I can see a play-by-play of the pizza delivery.
 
-What are the characteristics associated with the car?  These are your attributes.  What are the actions associated with your car?  These are your methods. 
+What are the characteristics associated with the car?  These are your attributes.  What are the actions associated with your car?  These are your methods.
 
 ## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
 Create a simple list of the attributes and methods (don't worry about your class structure yet!)  Try to be explicit and show if your methods are receiving any parameters.
 
-## Release 1: Write [Driver Code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md) 
-Base your tests on the following. Include expectatations where it makes sense. 
+## Release 1: Write [Driver Code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md)
+Base your tests on the following. Include expectatations where it makes sense.
 
-  - Create a new car of your desired model and type  
-  - Drive .25 miles (speed limit is 25 mph)  
-  - At the stop sign, turn right  
-  - Drive 1.5 miles (speed limit is 35 mph)  
-  - At the school zone, check your speed   
-  - Slow down to speed limit 15 mph  
-  - Drive .25 miles more miles  
-  - At the stop sign, turn left    
-  - Drive 1.4 miles (speed limit is 35 mph)  
-  - Stop at your destination  
-  - Log your total distance travelled  
-  
-Notice how the writing out of your driver code can help you to name your methods more concisely.  Also notice how you are getting a much better idea of what your class looks like and what is happening under the hood. (again, no pun intended) 
+  - Create a new car of your desired model and type
+  - Drive .25 miles (speed limit is 25 mph)
+  - At the stop sign, turn right
+  - Drive 1.5 miles (speed limit is 35 mph)
+  - At the school zone, check your speed
+  - Slow down to speed limit 15 mph
+  - Drive .25 miles more miles
+  - At the stop sign, turn left
+  - Drive 1.4 miles (speed limit is 35 mph)
+  - Stop at your destination
+  - Log your total distance travelled
+
+Notice how the writing out of your driver code can help you to name your methods more concisely.  Also notice how you are getting a much better idea of what your class looks like and what is happening under the hood. (again, no pun intended)
 
 ## Release 2: Initial Solution
 Using your driver code to fill out the class' innards.

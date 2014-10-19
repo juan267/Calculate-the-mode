@@ -49,5 +49,34 @@ Attr methods are a great way to have classes communicate their instance variable
 
 Create a class called `NameData` and a class called `Greetings`. `NameData` will have your name as an instance variable, and `Greetings` will have a method that will print a string to the console with a salutation customized to you.
 
+While inheritance is a viable solution for this problem, this is not the best case to use it. The key for using inheritance is thinking of it as an 'is a' relationship.
+
+For instance, if you are talking about plants, a tree 'is a' plant, an orange tree 'is a' tree, and a navel orange tree 'is a' orange tree.
+
+What you want to do in this case, where the two classes are not related through an 'is a' relationship, is give the `Greetings` class access to the `NameData` class methods.
+
+```ruby
+class Emitter
+  def important_method
+    return 5
+  end
+end
+
+class Receiver
+  def initialize
+    @emitter = Emitter.new
+  end
+
+  def use_data
+    puts @emitter.important_method  + 5
+  end
+end
+
+receiver = Receiver.new
+receiver.use_data #=> 10
+
+```
+So how can we use the `attr_` methods to do the same thing?
+
 ## Release 5: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 

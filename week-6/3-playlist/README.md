@@ -1,13 +1,10 @@
 [Week 6 Home](../)
 
 # U2.W6: Create a Playlist from Driver Code
-**[SOLO CHALLENGE](https://github.com/Devbootcamp/phase-0-handbook/blob/master/solo-challenges.md) OPTION 2**
-
 
 ## Learning Competencies
 - Implement a basic Ruby class and identify when to use instance variables
-- Translate a user story into driver code and solutions
-- Translate driver test code into a class structure using object-oriented design
+- Translate driver code into a class structure using object-oriented design
 
 ## Summary
 Review the Driver Code included in the [solution](my_solution.rb) file and consider the following:
@@ -30,8 +27,16 @@ Convert as many of the driver code examples into driver test code based on the w
 
 ## Release 2: Write your [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
 
-## Release 3: [Refactored](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md)
+## Release 3: Write Tests
+Convert as many of the driver code examples into driver test code based on the way you implemented each method. Make sure your tests output `true` before refactoring!
+
+## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md)
+
+Make sure your tests are still working!
 
 ## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 
 ## Release 5: Push your solution to GitHub
+
+## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
+**Optional but HIGHLY encouraged!**

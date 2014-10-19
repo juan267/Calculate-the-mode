@@ -6,9 +6,9 @@
 - Research Object-Oriented programming concepts
 
 ## Summary
-You've learned a bit about object-oriented programming this week, but there is still a ton to learn. In this challenge, select one topic below and do a bit of research on them. Then write a blog post about what you've learned. Remember to time-box to about an hour for each blog post!
+You've learned a bit about object-oriented programming this week, but there is still a ton to learn. In this challenge, select one topic below and do a bit of research on them. Then write a blog post about what you've learned. Remember to time-box to about an hour for each blog post.
 
-## Release 0: New Template
+## Release 0: Copy the Template
 In your [USERNAME].github.io/blog directory, copy your blog template into a new HTML file named `t7-oop-concepts.html`.
 
 ## Release 1: Research
@@ -21,7 +21,7 @@ So you've had some experience with Object-Oriented Programming (OOP) this week. 
 What kinds of variables does Ruby support? Where are they accessible? When would you use them and what makes them different?
 
 #### Option 3: Class Methods
-Research class methods and desribe what they are, how to use them, and when you would use them
+Research class methods and desribe what they are, how to use them, and when you would use them.
 
 #### Option 4: Blocs, Procs, and Lambdas
 What are these? How do they work?
