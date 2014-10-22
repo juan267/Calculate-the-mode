@@ -7,3 +7,4 @@ $global_var = 10
 CONSTANT = 10
 
 local_var = 10
+p "#{local_var}"
