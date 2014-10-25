@@ -1,19 +1,19 @@
-# U2.W6: Create a Bingo Scorer (SOLO CHALLENGE)
+# # U2.W6: Create a Bingo Scorer (SOLO CHALLENGE)
 
 
-# 1. Pseudocode
+# # 1. Pseudocode
 
- sample_board =[[1, 44, 71, 8, 88],
-               [22, 2, 75, 65, 73],
-                [83, 85, 3, 89, 57],
-                [25, 31, 96, 4, 51],
-                [75, 70, 54, 76, 5]]
-
-
+#  sample_board =[[1, 44, 71, 8, 88],
+#                [22, 2, 75, 65, 73],
+#                 [83, 85, 3, 89, 57],
+#                 [25, 31, 96, 4, 51],
+#                 [75, 70, 54, 76, 5]]
 
 
 
-# 2. Initial Solution
+
+
+# # 2. Initial Solution
 
 class BingoBoard
   @@calls = []
@@ -116,23 +116,31 @@ class BingoBoard
 end
 end
 
-# 4. Refactored Solution
+# # 4. Refactored Solution
 
 
 
 
 
 
-# 3. DRIVER TESTS GO BELOW THIS LINE
+# # 3. DRIVER TESTS GO BELOW THIS LINE
 game = BingoBoard.new
 500.times do game.generator end
 game.mark
 game.display
 game.bingo
 
-# create driver test code to retrieve a value at a coordinate here:
-# implement tests for each of the methods here:
+# # create driver test code to retrieve a value at a coordinate here:
+# # implement tests for each of the methods here:
 
 
-# 5. Reflection
+# # 5. Reflection
+
+# This Bingo challenge gets harder and harder , i have learn a lot from it , the most cool thing that i learn
+# from this second iteration, was that to store all the calls for each combo i could use a @@class variables
+# to store that infromation , since that was the same for all instances of the class. I also found the uniq method
+# that help me check is an array was completly fill with the same element repeated. I still have to refactor a lot
+# of this code , but i dont want to do it right way as i feel that i can make it much better when i learn a little
+#   bit more.
+
 
