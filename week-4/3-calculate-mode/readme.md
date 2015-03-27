@@ -1,7 +1,6 @@
 [Week 4 Home](../../)
 
 # U2.W4: Calculate the Mode
-**Pairing Challenge**
 
 ## Learning Competencies
 - Break a large problem down into smaller steps
@@ -32,17 +31,3 @@ HINT: You'll want to look at [`Hash`](http://ruby-doc.org/core-2.0.0/Hash.html)e
 ## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/pseudocode.md)
 
 ## Release 1: Write your [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/initial-solution.md)
-
-## Release 2: Run the tests
-Once your code passes the tests, move on to refactoring.
-
-## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) your solution
-Make sure your code still passes the tests!
-
-## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
-
-## Release 5: Commit and Push!
-If you want feedback, continue using **#DBCU2W4** to request it!
-
-## Release 6: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) (Optional)
-**Optional but HIGHLY encouraged!**
