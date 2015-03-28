@@ -1,6 +1,6 @@
 [Week 4 Home](../../)
 
-# U2.W4: Add it up!
+# Add it up!
 
 ## Learning Competencies
 - Break a large problem down into smaller steps
@@ -21,21 +21,9 @@ total([-100, 100])  # => 0
 
 To write pseudocode, first identify the input and output. What will the method receive as an argument (input)? What will be returned (output)? Then outline the steps you'll need to implement to solve the problem using `Array` methods (you can view these in [ruby-docs for arrays](http://www.ruby-doc.org/core-2.0/Array.html)).
 
-
 Translate your pseudocode into code.
 
-## Release 2: Run the tests
-Does your code pass the tests for `total` in [array_total_spec.rb](array_total_spec.rb)? Remember to run files by typing:
-
-`rspec array_total_spec.rb`
-
-in the directory where the file is located in your terminal.
-
-If the tests for total pass, move on to the next release. If not, go back and fix the code.
-
-## Release 3: [Refactor](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md) your solution.
-
-We directed you to use `Array` methods in your first solution, but there are many powerful methods built in to the Enumerable module that can do a lot of that work for you. Navigate to the [ruby-docs for Enumerables](http://ruby-doc.org/core-2.0/Enumerable.html). Once you're there, scroll down to see if any of these methods would be useful to do what you want to do. The docs are difficult to read, so start getting practice now.
+I directed you to use `Array` methods in your first solution, but there are many powerful methods built in to the Enumerable module that can do a lot of that work for you. Navigate to the [ruby-docs for Enumerables](http://ruby-doc.org/core-2.0/Enumerable.html). Once you're there, scroll down to see if any of these methods would be useful to do what you want to do. The docs are difficult to read, so start getting practice now.
 
 You should be able to shorten your total method to one line using a specific enumerable method. I'm telling you this to help you look for a specific method, but please don't think all methods should be shortened to one line. Short methods are great as long as the code is readable. By that, I mean that it should be easy to tell what the code is doing simply by scanning it.
 
