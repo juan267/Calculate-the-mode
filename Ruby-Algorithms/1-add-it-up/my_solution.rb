@@ -4,15 +4,11 @@
 # When it finish to run trough the array, return the final value with the sum of all the vulues
 
 def total(array)
-  result = 0
-  for i in 0...array.length
-    result += array[i]
-  end
-  result
+  array.reduce(:+)
 end
 
 # ------ Testing ------
 
-total([1,2,3])      # => 6
-total([4.5, 0, -1]) # => 3.5
-total([-100, 100])  # => 0
+# total([1,2,3])      # => 6
+# total([4.5, 0, -1]) # => 3.5
+# total([-100, 100])  # => 0
