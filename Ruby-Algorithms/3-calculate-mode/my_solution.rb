@@ -6,18 +6,10 @@
 # If there is no repetitive values, it returns the original array
 
 def mode(ary)
-
-  result = []
-  count = {}
-  has = false
-
-  ary.each do |itm|
-    count[itm] = ary.count(itm), has = true   if ary.count(itm) > 1
-  end
-
+  result = [] ,count = {} , has = false
+  ary.each { |itm| count[itm] = ary.count(itm), has = true   if ary.count(itm) > 1 }
   count.each  {|key,value| result.push(key) }
   has ? result : ary
-
 end
 
 # ------ Testing ------
