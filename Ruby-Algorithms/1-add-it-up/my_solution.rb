@@ -4,7 +4,6 @@
 # When it finish to run trough the array, return the final value with the sum of all the vulues
 
 def total(array)
-  Array solution
   result = 0
   for i in 0...array.length
     result += array[i]
