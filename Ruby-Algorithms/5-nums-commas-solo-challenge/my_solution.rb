@@ -9,4 +9,7 @@ def separate_comma(number)
   number.reverse!
 end
 
-#separate_comma(10000000)
+p separate_comma(10000000)
+p separate_comma(10)
+p separate_comma(0)
+p separate_comma(1789)
