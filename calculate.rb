@@ -11,7 +11,8 @@ def mode(array)
 	end
 	c=0
 	count.each do |item|
-		output[c] = unique[c] if item == count.max
+		output[c] = unique[c] 
+		if item == count.max
 		c+=1
 	end
 	return output.compact.inspect
