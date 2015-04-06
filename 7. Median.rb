@@ -18,6 +18,3 @@ median([-100, 100])  # => 0.0
 median(["apple","cherry","banana"])      # => "banana"
 median(["apple","cherry","banana","mango"])      # => "banana"
 
-
-print [2,43,].all? {|item| item.is_a? Fixnum }
-
